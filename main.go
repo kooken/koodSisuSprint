@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"koodSisuSprint/sprint" // This should match your go.mod module name
+	"koodSisuSprint/sprint"
 )
 
 func main() {
@@ -14,4 +14,13 @@ func main() {
 	fmt.Printf("%c\n", sprint.ShiftBy('a', 4))
 	fmt.Println(sprint.StrConcat("r", "ProgrammerHumour", "/"))
 	fmt.Println(sprint.ReverseAlphabetValue('a'))
+	fmt.Println(sprint.IsNegative(1))
+	fmt.Print((sprint.IntVsFloat(5, 8.8)))
+	fmt.Println(sprint.IntVsFloat(-8, -8.8))
+	fmt.Println(sprint.Season("feb"))
+	fmt.Println(sprint.Season("September"))
+	fmt.Println(sprint.Accumulate(10))
+	fmt.Println(sprint.BetweenLimits('j', 'f'))
+	fmt.Println(sprint.Doop(5, "%", 3))
+	fmt.Println(sprint.Doop(8, "/", 0))
 }
