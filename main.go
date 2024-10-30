@@ -23,4 +23,9 @@ func main() {
 	fmt.Println(sprint.BetweenLimits('j', 'f'))
 	fmt.Println(sprint.Doop(5, "%", 3))
 	fmt.Println(sprint.Doop(8, "/", 0))
+	fmt.Println(sprint.IsLeapYear(2020))
+	fmt.Println(sprint.IsLeapYear(1900))
+	fmt.Println(sprint.CountDivisible(5, 17, 2, 3))
+	fmt.Println(sprint.FindDividend(5, 17, 4))
+	fmt.Println(sprint.FindDividend(10, 18, 9))
 }
